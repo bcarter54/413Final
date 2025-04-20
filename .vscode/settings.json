@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "undefined/subscriptions/435c048d-9afe-4ec4-9317-9312ea1a9dce/resourceGroups/appsvc_windows_eastus2/providers/Microsoft.Web/sites/Final-Carter-Backend",
+  "appService.deploySubpath": "backend/413Final.API/publish"
+}
