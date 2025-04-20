@@ -88,8 +88,6 @@ function DetailsPage() {
             <p><strong>Email Address:</strong> {entertainer.entEMailAddress}</p>
             <p><strong>Web Page:</strong> <a href={entertainer.entWebPage} target="_blank" rel="noreferrer">{entertainer.entWebPage}</a></p>
             <p><strong>Date Entered:</strong> {entertainer.dateEntered}</p>
-            <p><strong>Booking Count:</strong> {entertainer.bookingCount}</p>
-            <p><strong>Most Recent Booking:</strong> {entertainer.mostRecentBooking}</p>
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginTop: '2rem' }}>
