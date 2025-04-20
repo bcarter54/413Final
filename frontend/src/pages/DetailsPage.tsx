@@ -80,11 +80,16 @@ function DetailsPage() {
           <h2 style={{ textAlign: 'center', marginBottom: '1.5rem' }}>{entertainer.entStageName}</h2>
           <div style={{ lineHeight: '1.75' }}>
             <p><strong>SSN:</strong> {entertainer.entSSN}</p>
-            <p><strong>Address:</strong> {entertainer.entStreetAddress}, {entertainer.entCity}, {entertainer.entState} {entertainer.entZipCode}</p>
-            <p><strong>Phone:</strong> {entertainer.entPhoneNumber}</p>
-            <p><strong>Email:</strong> {entertainer.entEMailAddress}</p>
-            <p><strong>Website:</strong> <a href={entertainer.entWebPage} target="_blank" rel="noreferrer">{entertainer.entWebPage}</a></p>
+            <p><strong>Street Address:</strong> {entertainer.entStreetAddress}</p>
+            <p><strong>City:</strong> {entertainer.entCity}</p>
+            <p><strong>State:</strong> {entertainer.entState}</p>
+            <p><strong>Zip Code:</strong> {entertainer.entZipCode}</p>
+            <p><strong>Phone Number:</strong> {entertainer.entPhoneNumber}</p>
+            <p><strong>Email Address:</strong> {entertainer.entEMailAddress}</p>
+            <p><strong>Web Page:</strong> <a href={entertainer.entWebPage} target="_blank" rel="noreferrer">{entertainer.entWebPage}</a></p>
             <p><strong>Date Entered:</strong> {entertainer.dateEntered}</p>
+            <p><strong>Booking Count:</strong> {entertainer.bookingCount}</p>
+            <p><strong>Most Recent Booking:</strong> {entertainer.mostRecentBooking}</p>
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginTop: '2rem' }}>
